@@ -1,0 +1,23 @@
+package unidade01.exemplos;
+
+public class Cachorro {
+    String nome;
+    String raca;
+    String cor;
+    double peso;
+    
+    
+    void latir(){
+        System.out.println("Auauauauauauauaua (latido de "+raca+")");
+    }
+
+    void abanarRabo(){
+        System.out.println("Abanando o rabo");
+    }
+
+    void pegarCoisa(String coisa){
+        System.out.println("Pegando "+coisa);
+    } 
+}
+
+
